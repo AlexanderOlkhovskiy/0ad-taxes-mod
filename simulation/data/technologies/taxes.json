@@ -1,0 +1,15 @@
+{
+	"genericName": "Taxes",
+	"description": "Each house provides a small metal income.",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 2000},
+	"requirements": {"tech": "phase_city"},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "special_treasure.png",
+	"researchTime": 100,
+	"tooltip": "Impose taxes on citizens. Each house provides 1 metal each minute.",
+	"modifications": [
+		{"value": "ResourceTrickle/Rates/metal", "add": 1}
+	],
+	"affects": ["House"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

@@ -1,0 +1,9 @@
+{
+	"name": "taxes",
+	"version": "0.0.21",
+	"label": "0 A.D. Taxes Mod",
+	"url": "https://github.com/AlexanderOlkhovskiy/0ad-taxes-mod",
+	"description": "Adds taxes technology.",
+    "dependencies": ["0ad=0.0.21"],
+	"type": "gameplay mod"
+}
